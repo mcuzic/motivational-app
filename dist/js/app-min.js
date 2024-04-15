@@ -1,0 +1,1 @@
+"use strict";window.$=require("./jQuery");var quotes=["Prvi","Drugi","Treći"];$(function(){var e=$("#quote");$("#generate").on({click:function(){var t=Math.floor(Math.random()*quotes.length);e.fadeOut(1500,function(){e.text(quotes[t])}).fadeIn()}})});
